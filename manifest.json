@@ -1,6 +1,6 @@
 {
     "name": "jokenpo",
-    "short_name": "logo",
+    "short_name": "jokenpo",
     "description": "Aplicativo Pedra, papel e tesoura",
     "start_url": "/jokenkov1/",
     "scope": "/",
