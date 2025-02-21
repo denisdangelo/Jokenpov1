@@ -9,7 +9,7 @@
 //se o navegador de internet suportar este recurso
 if('serviceWorker' in navigator) {
     navigator.serviceWorker
-    .register('/jokenpov1/sw.js')
+    .register('/Jokenpov1/sw.js')
     .then(()=> {
         console.log("Service worker resgistrado! ")
     })
