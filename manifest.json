@@ -3,7 +3,7 @@
     "name": "jokenpo",
     "short_name": "jokenpo",
     "description": "Aplicativo Pedra, papel e tesoura",
-    "start_url": "./Jokenpov1/",
+    "start_url": "/Jokenpov1/",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait-primary",
