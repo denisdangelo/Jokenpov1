@@ -38,7 +38,7 @@ self.addEventListener('activate', (event)=> {
 //Interceptação (solicitações https servindo em cache quando off-line)
 self.addEventListener('fetch', (event)=> {
     event.respondWith(
-        cache.match(event.request)
+        caches.match(event.request)
         .then((response)=>{
             if (response) {
                 return response
